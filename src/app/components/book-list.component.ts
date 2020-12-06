@@ -25,7 +25,10 @@ import { Book } from '../models/book';
     border-bottom: 1px solid black;
   }
   .book-tile img{
-    width: 100px;
+    max-width: 100px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
     margin: 10px;
   }
   .book-tile .book-details{

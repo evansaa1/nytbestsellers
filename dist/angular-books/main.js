@@ -314,7 +314,7 @@ BookListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.loading);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.loading);
-    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".book-tile[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: row;\n    padding: 10px;\n    margin: 10px;\n    border-bottom: 1px solid black;\n  }\n  .book-tile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\n    width: 100px;\n    margin: 10px;\n  }\n  .book-tile[_ngcontent-%COMP%]   .book-details[_ngcontent-%COMP%]{\n    margin: 10px;\n  }"] });
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_2__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".book-tile[_ngcontent-%COMP%] {\n    display: flex;\n    flex-direction: row;\n    padding: 10px;\n    margin: 10px;\n    border-bottom: 1px solid black;\n  }\n  .book-tile[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{\n    max-width: 100px;\n    max-height: 160px;\n    width: auto;\n    height: auto;\n    margin: 10px;\n  }\n  .book-tile[_ngcontent-%COMP%]   .book-details[_ngcontent-%COMP%]{\n    margin: 10px;\n  }"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BookListComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -340,7 +340,10 @@ BookListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
     border-bottom: 1px solid black;
   }
   .book-tile img{
-    width: 100px;
+    max-width: 100px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
     margin: 10px;
   }
   .book-tile .book-details{
